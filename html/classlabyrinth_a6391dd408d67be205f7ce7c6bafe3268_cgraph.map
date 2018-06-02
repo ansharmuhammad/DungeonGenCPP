@@ -1,0 +1,10 @@
+<map id="labyrinth::generate" name="labyrinth::generate">
+<area shape="rect" id="node2" href="$classlabyrinth.html#abaf6fd67f1de5ee089113f5dddccf06f" title="prosedur untuk memeriksa cell tetangga di sekitar cell yang ada pada top stack tracker apakah cell te..." alt="" coords="183,5,341,32"/>
+<area shape="rect" id="node3" href="$classgridm.html#a04e3aa92f1d8c92fb5e96d104c441643" title="getter : untuk mengetahui apakah cell pada koordinat x,y sudah dikunjungi " alt="" coords="391,31,511,57"/>
+<area shape="rect" id="node4" href="$classgridm.html#aeae60b366ff6ef24bbb58919979e729a" title="setter : untuk menentukan apakah suatu cell sudah dikunjungi pada koordinat x,y " alt="" coords="391,107,511,133"/>
+<area shape="rect" id="node5" href="$classgridm.html#a159582558d4c2f49f1817467b1babc16" title="setter : untuk menentukan value(nilai) cell pada koordinat x,y " alt="" coords="394,157,507,184"/>
+<area shape="rect" id="node6" href="$classgridm.html#a3717cae15c3e1ad8cc5a4823719a2607" title="setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y ..." alt="" coords="389,259,512,285"/>
+<area shape="rect" id="node7" href="$classgridm.html#a65f3418864d245e55f7e98ef33004d0b" title="getter : untuk mendapatkan cell pada koordinat x,y " alt="" coords="399,309,502,336"/>
+<area shape="rect" id="node8" href="$classlabyrinth.html#a0306dbac4e303f7a7989d8fb06b9fddf" title="merupakan prosedur untuk membuat jalur maze dari cell yang terpilih dalam list(daftar) var..." alt="" coords="203,208,321,235"/>
+<area shape="rect" id="node9" href="$classgridm.html#a2d318d926b5d3df9394e2b4fe2775d64" title="untuk mencetak(menampilkan) seluruh cell pada grid map " alt="" coords="399,208,503,235"/>
+</map>

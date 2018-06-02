@@ -1,0 +1,4 @@
+<map id="dungeon::executeMaze" name="dungeon::executeMaze">
+<area shape="rect" id="node2" href="$classlabyrinth.html#accca23f1f6576ec6ffbd15742791943a" title="merpukan getter untuk mendapatkan grid map yang terdapat maze di dalamnya " alt="" coords="211,5,340,32"/>
+<area shape="rect" id="node3" href="$classgridm.html#a2d318d926b5d3df9394e2b4fe2775d64" title="untuk mencetak(menampilkan) seluruh cell pada grid map " alt="" coords="223,56,327,83"/>
+</map>

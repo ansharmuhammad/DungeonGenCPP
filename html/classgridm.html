@@ -1,0 +1,1229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dungeon Generator (BSP Tree &amp; recursive bactracking) c++: Referensi Kelas gridm</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Maze.ico"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dungeon Generator (BSP Tree &amp; recursive bactracking) c++
+   &#160;<span id="projectnumber">1.00.0</span>
+   </div>
+   <div id="projectbrief">dungeon yang di desain otomatis menggunakan penggabungan algoritma BSP Tree dan Recursive Backtracker dengan bahasa c++.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Dibangkitkan oleh Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cari');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cari');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('classgridm.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fungsi Anggota Publik</a> &#124;
+<a href="#pub-attribs">Atribut Publik</a> &#124;
+<a href="classgridm-members.html">Daftar semua anggota</a>  </div>
+  <div class="headertitle">
+<div class="title">Referensi Kelas gridm</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>merupakan objek grid map. yaitu objek yang menampung sekumpulan objek cell pada koordinat x,y seperti cell pada micrososft excell  
+ <a href="classgridm.html#details">Selengkapnya...</a></p>
+
+<p><code>#include &lt;<a class="el" href="gridm_8h_source.html">gridm.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram kolaborasi untuk gridm:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm__coll__graph.png" border="0" usemap="#gridm_coll__map" alt="Collaboration graph"/></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Fungsi Anggota Publik</h2></td></tr>
+<tr class="memitem:a9100689d116f623dd8bb5d74b141e38b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a9100689d116f623dd8bb5d74b141e38b">gridm</a> ()</td></tr>
+<tr class="memdesc:a9100689d116f623dd8bb5d74b141e38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classgridm.html#a9100689d116f623dd8bb5d74b141e38b" title="Construct a new gridm::gridm object. ">gridm::gridm</a> object.  <a href="#a9100689d116f623dd8bb5d74b141e38b">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a9100689d116f623dd8bb5d74b141e38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba975eb152968d62763e2874a45ef29a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#aba975eb152968d62763e2874a45ef29a">gridm</a> (int width, int height)</td></tr>
+<tr class="memdesc:aba975eb152968d62763e2874a45ef29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classgridm.html#a9100689d116f623dd8bb5d74b141e38b" title="Construct a new gridm::gridm object. ">gridm::gridm</a> object membuat gridmap berisikan cell. sebanyak lebar * panjang = banyaknya cell.  <a href="#aba975eb152968d62763e2874a45ef29a">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:aba975eb152968d62763e2874a45ef29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a519af1a5cd7a4f20742eba2a01ea4858"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a519af1a5cd7a4f20742eba2a01ea4858">~gridm</a> ()</td></tr>
+<tr class="memdesc:a519af1a5cd7a4f20742eba2a01ea4858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classgridm.html#a9100689d116f623dd8bb5d74b141e38b" title="Construct a new gridm::gridm object. ">gridm::gridm</a> object.  <a href="#a519af1a5cd7a4f20742eba2a01ea4858">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a519af1a5cd7a4f20742eba2a01ea4858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11c0483c19b170abefd32ed426b5635f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a11c0483c19b170abefd32ed426b5635f">clearing</a> (int value)</td></tr>
+<tr class="memdesc:a11c0483c19b170abefd32ed426b5635f"><td class="mdescLeft">&#160;</td><td class="mdescRight">menginisiasi nilai setiap cell pada grid map  <a href="#a11c0483c19b170abefd32ed426b5635f">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a11c0483c19b170abefd32ed426b5635f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a159582558d4c2f49f1817467b1babc16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a159582558d4c2f49f1817467b1babc16">setValue</a> (int x, int y, int value)</td></tr>
+<tr class="memdesc:a159582558d4c2f49f1817467b1babc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter : untuk menentukan value(nilai) cell pada koordinat x,y  <a href="#a159582558d4c2f49f1817467b1babc16">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a159582558d4c2f49f1817467b1babc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b9a58958af9badfdff8d56be6b32c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a97b9a58958af9badfdff8d56be6b32c5">setColor</a> (int x, int y, int color)</td></tr>
+<tr class="memdesc:a97b9a58958af9badfdff8d56be6b32c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter : untuk menentukan color(warna) cell pada koordinat x,y  <a href="#a97b9a58958af9badfdff8d56be6b32c5">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a97b9a58958af9badfdff8d56be6b32c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae60b366ff6ef24bbb58919979e729a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#aeae60b366ff6ef24bbb58919979e729a">setVisited</a> (int x, int y, bool visited)</td></tr>
+<tr class="memdesc:aeae60b366ff6ef24bbb58919979e729a"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter : untuk menentukan apakah suatu cell sudah dikunjungi pada koordinat x,y  <a href="#aeae60b366ff6ef24bbb58919979e729a">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:aeae60b366ff6ef24bbb58919979e729a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1615ea8743f2aad5bbbbda1a2d5bff88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a1615ea8743f2aad5bbbbda1a2d5bff88">set_region_visited</a> (int x1, int y1, int x2, int y2, bool value)</td></tr>
+<tr class="memdesc:a1615ea8743f2aad5bbbbda1a2d5bff88"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter : untuk menentukan sekumpulan cell sudah dikunjungi atau belum pada koordinat x,y awal hingga x,y akhir  <a href="#a1615ea8743f2aad5bbbbda1a2d5bff88">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a1615ea8743f2aad5bbbbda1a2d5bff88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca5f9f2af52b99b9de6b453e64b02f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#aeca5f9f2af52b99b9de6b453e64b02f6">set_region</a> (int x1, int y1, int x2, int y2, int value)</td></tr>
+<tr class="memdesc:aeca5f9f2af52b99b9de6b453e64b02f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter : untuk menentukan value(nilai) sekumpulan cell pada koordinat x,y awal hingga x,y akhir  <a href="#aeca5f9f2af52b99b9de6b453e64b02f6">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:aeca5f9f2af52b99b9de6b453e64b02f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09855d90537170c0d007eaefaddd6d49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a09855d90537170c0d007eaefaddd6d49">set_region_color</a> (int x1, int y1, int x2, int y2, int color)</td></tr>
+<tr class="memdesc:a09855d90537170c0d007eaefaddd6d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter : untuk menentukan color(warna) sekumpulan cell pada koordinat x,y awal hingga x,y akhir  <a href="#a09855d90537170c0d007eaefaddd6d49">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a09855d90537170c0d007eaefaddd6d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec0addfbbb4f4aa36af4dbf34ac9d8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a9ec0addfbbb4f4aa36af4dbf34ac9d8d">setCell</a> (int x, int y, <a class="el" href="classcell.html">cell</a> Cell)</td></tr>
+<tr class="memdesc:a9ec0addfbbb4f4aa36af4dbf34ac9d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter : untuk menentukan objek cell pada koordinat x,y  <a href="#a9ec0addfbbb4f4aa36af4dbf34ac9d8d">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a9ec0addfbbb4f4aa36af4dbf34ac9d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3717cae15c3e1ad8cc5a4823719a2607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a3717cae15c3e1ad8cc5a4823719a2607">setDisplay</a> (int x, int y, string value)</td></tr>
+<tr class="memdesc:a3717cae15c3e1ad8cc5a4823719a2607"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y  <a href="#a3717cae15c3e1ad8cc5a4823719a2607">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a3717cae15c3e1ad8cc5a4823719a2607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f94fd47ed4f8e6d3e45e3cf1a70037"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#ab5f94fd47ed4f8e6d3e45e3cf1a70037">set_region_display</a> (int x1, int y1, int x2, int y2, string value)</td></tr>
+<tr class="memdesc:ab5f94fd47ed4f8e6d3e45e3cf1a70037"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y awal hingga x,y akhir  <a href="#ab5f94fd47ed4f8e6d3e45e3cf1a70037">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:ab5f94fd47ed4f8e6d3e45e3cf1a70037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8522ca282c3b773866b8ca6bbb791f8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a8522ca282c3b773866b8ca6bbb791f8c">resize</a> (int height, int width)</td></tr>
+<tr class="memdesc:a8522ca282c3b773866b8ca6bbb791f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">prosedur untuk mengubah panjang dan lebar grid map  <a href="#a8522ca282c3b773866b8ca6bbb791f8c">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a8522ca282c3b773866b8ca6bbb791f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af38b66af364f0cdf3519e53ce0ce4498"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#af38b66af364f0cdf3519e53ce0ce4498">get_width</a> ()</td></tr>
+<tr class="memdesc:af38b66af364f0cdf3519e53ce0ce4498"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter : untuk mendapatkan nilai width(lebar) grid map  <a href="#af38b66af364f0cdf3519e53ce0ce4498">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:af38b66af364f0cdf3519e53ce0ce4498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1387cce0b83daad5129a743b8508e00a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a1387cce0b83daad5129a743b8508e00a">get_height</a> ()</td></tr>
+<tr class="memdesc:a1387cce0b83daad5129a743b8508e00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter : untuk mendapatkan nilai height(panjang) grid map  <a href="#a1387cce0b83daad5129a743b8508e00a">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a1387cce0b83daad5129a743b8508e00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf15927bb8ecc81cdfe4d4b099e82759"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#acf15927bb8ecc81cdfe4d4b099e82759">getValue</a> (int x, int y)</td></tr>
+<tr class="memdesc:acf15927bb8ecc81cdfe4d4b099e82759"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter : untuk mendapatkan nilai cell pada koordinat x,y  <a href="#acf15927bb8ecc81cdfe4d4b099e82759">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:acf15927bb8ecc81cdfe4d4b099e82759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae3158553328beefc71848afb8567727"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#aae3158553328beefc71848afb8567727">getColor</a> (int x, int y)</td></tr>
+<tr class="memdesc:aae3158553328beefc71848afb8567727"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter : untuk mendapatkan color(warna) cell pada koordinat x,y  <a href="#aae3158553328beefc71848afb8567727">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:aae3158553328beefc71848afb8567727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04e3aa92f1d8c92fb5e96d104c441643"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a04e3aa92f1d8c92fb5e96d104c441643">getVisited</a> (int x, int y)</td></tr>
+<tr class="memdesc:a04e3aa92f1d8c92fb5e96d104c441643"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter : untuk mengetahui apakah cell pada koordinat x,y sudah dikunjungi  <a href="#a04e3aa92f1d8c92fb5e96d104c441643">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a04e3aa92f1d8c92fb5e96d104c441643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f3418864d245e55f7e98ef33004d0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcell.html">cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a65f3418864d245e55f7e98ef33004d0b">getCell</a> (int x, int y)</td></tr>
+<tr class="memdesc:a65f3418864d245e55f7e98ef33004d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter : untuk mendapatkan cell pada koordinat x,y  <a href="#a65f3418864d245e55f7e98ef33004d0b">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a65f3418864d245e55f7e98ef33004d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af395d9e645fa7659ed48e60d48dca99d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#af395d9e645fa7659ed48e60d48dca99d">getDisplay</a> (int x, int y)</td></tr>
+<tr class="memdesc:af395d9e645fa7659ed48e60d48dca99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter : untuk mendapatkan display(string yang ditampilkan) cell pada koordinat x,y  <a href="#af395d9e645fa7659ed48e60d48dca99d">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:af395d9e645fa7659ed48e60d48dca99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d318d926b5d3df9394e2b4fe2775d64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a2d318d926b5d3df9394e2b4fe2775d64">printing</a> ()</td></tr>
+<tr class="memdesc:a2d318d926b5d3df9394e2b4fe2775d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">untuk mencetak(menampilkan) seluruh cell pada grid map  <a href="#a2d318d926b5d3df9394e2b4fe2775d64">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a2d318d926b5d3df9394e2b4fe2775d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5d63a0131485714d3895d83cd97968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a1b5d63a0131485714d3895d83cd97968">save</a> (string name)</td></tr>
+<tr class="memdesc:a1b5d63a0131485714d3895d83cd97968"><td class="mdescLeft">&#160;</td><td class="mdescRight">untuk menyimpan seluruh cell pada grid map  <a href="#a1b5d63a0131485714d3895d83cd97968">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a1b5d63a0131485714d3895d83cd97968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atribut Publik</h2></td></tr>
+<tr class="memitem:a6840544e6f8be369abce1a5d6f6054c5"><td class="memItemLeft" align="right" valign="top">vector&lt; vector&lt; <a class="el" href="classcell.html">cell</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridm.html#a6840544e6f8be369abce1a5d6f6054c5">map</a></td></tr>
+<tr class="memdesc:a6840544e6f8be369abce1a5d6f6054c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">list 2 dimensi yang berisikan cell  <a href="#a6840544e6f8be369abce1a5d6f6054c5">Selengkapnya...</a><br /></td></tr>
+<tr class="separator:a6840544e6f8be369abce1a5d6f6054c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Keterangan Lengkap</h2>
+<div class="textblock"><p>merupakan objek grid map. yaitu objek yang menampung sekumpulan objek cell pada koordinat x,y seperti cell pada micrososft excell </p>
+</div><h2 class="groupheader">Dokumentasi Konstruktor &amp; Destruktor</h2>
+<a id="a9100689d116f623dd8bb5d74b141e38b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9100689d116f623dd8bb5d74b141e38b">&#9670;&nbsp;</a></span>gridm() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gridm::gridm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new <a class="el" href="classgridm.html#a9100689d116f623dd8bb5d74b141e38b" title="Construct a new gridm::gridm object. ">gridm::gridm</a> object. </p>
+
+</div>
+</div>
+<a id="aba975eb152968d62763e2874a45ef29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba975eb152968d62763e2874a45ef29a">&#9670;&nbsp;</a></span>gridm() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gridm::gridm </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new <a class="el" href="classgridm.html#a9100689d116f623dd8bb5d74b141e38b" title="Construct a new gridm::gridm object. ">gridm::gridm</a> object membuat gridmap berisikan cell. sebanyak lebar * panjang = banyaknya cell. </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>[int] lebar map </td></tr>
+    <tr><td class="paramname">height</td><td>[int] panjang map </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-terpanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_aba975eb152968d62763e2874a45ef29a_cgraph.png" border="0" usemap="#classgridm_aba975eb152968d62763e2874a45ef29a_cgraph" alt=""/></div>
+<map name="classgridm_aba975eb152968d62763e2874a45ef29a_cgraph" id="classgridm_aba975eb152968d62763e2874a45ef29a_cgraph">
+<area shape="rect" id="node2" href="classgridm.html#a11c0483c19b170abefd32ed426b5635f" title="menginisiasi nilai setiap cell pada grid map " alt="" coords="148,5,255,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a519af1a5cd7a4f20742eba2a01ea4858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a519af1a5cd7a4f20742eba2a01ea4858">&#9670;&nbsp;</a></span>~gridm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gridm::~gridm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destroy the <a class="el" href="classgridm.html#a9100689d116f623dd8bb5d74b141e38b" title="Construct a new gridm::gridm object. ">gridm::gridm</a> object. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentasi Anggota: Fungsi</h2>
+<a id="a11c0483c19b170abefd32ed426b5635f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11c0483c19b170abefd32ed426b5635f">&#9670;&nbsp;</a></span>clearing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::clearing </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>menginisiasi nilai setiap cell pada grid map </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>[int] nilai inisiasi untuk setiap cell </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a11c0483c19b170abefd32ed426b5635f_icgraph.png" border="0" usemap="#classgridm_a11c0483c19b170abefd32ed426b5635f_icgraph" alt=""/></div>
+<map name="classgridm_a11c0483c19b170abefd32ed426b5635f_icgraph" id="classgridm_a11c0483c19b170abefd32ed426b5635f_icgraph">
+<area shape="rect" id="node2" href="classdungeon.html#ad235d0f9cb289539323063e5352a6a5c" title="mfungsi untuk men generate ulang dungeon dengan nilai attribut yang telah dirubah ..." alt="" coords="160,31,285,57"/>
+<area shape="rect" id="node5" href="classgridm.html#aba975eb152968d62763e2874a45ef29a" title="Construct a new gridm::gridm object membuat gridmap berisikan cell. sebanyak lebar * panjang = banyak..." alt="" coords="175,81,270,108"/>
+<area shape="rect" id="node3" href="classdungeon.html#a7717dd21ff5aebdf53b4929716d92c38" title="Construct a new dungeon object. " alt="" coords="333,5,461,32"/>
+<area shape="rect" id="node4" href="example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="372,56,423,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1387cce0b83daad5129a743b8508e00a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1387cce0b83daad5129a743b8508e00a">&#9670;&nbsp;</a></span>get_height()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gridm::get_height </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter : untuk mendapatkan nilai height(panjang) grid map </p>
+<dl class="section return"><dt>Mengembalikan</dt><dd>int </dd></dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a1387cce0b83daad5129a743b8508e00a_icgraph.png" border="0" usemap="#classgridm_a1387cce0b83daad5129a743b8508e00a_icgraph" alt=""/></div>
+<map name="classgridm_a1387cce0b83daad5129a743b8508e00a_icgraph" id="classgridm_a1387cce0b83daad5129a743b8508e00a_icgraph">
+<area shape="rect" id="node2" href="classlabyrinth.html#ac10b855c37741e9fe3ba476b4eac043f" title="Construct a new labirinth::labirinth object membuat maze pada grid map dengan memanggil fungsi genera..." alt="" coords="176,5,304,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af38b66af364f0cdf3519e53ce0ce4498"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af38b66af364f0cdf3519e53ce0ce4498">&#9670;&nbsp;</a></span>get_width()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gridm::get_width </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter : untuk mendapatkan nilai width(lebar) grid map </p>
+<dl class="section return"><dt>Mengembalikan</dt><dd>int </dd></dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_af38b66af364f0cdf3519e53ce0ce4498_icgraph.png" border="0" usemap="#classgridm_af38b66af364f0cdf3519e53ce0ce4498_icgraph" alt=""/></div>
+<map name="classgridm_af38b66af364f0cdf3519e53ce0ce4498_icgraph" id="classgridm_af38b66af364f0cdf3519e53ce0ce4498_icgraph">
+<area shape="rect" id="node2" href="classlabyrinth.html#ac10b855c37741e9fe3ba476b4eac043f" title="Construct a new labirinth::labirinth object membuat maze pada grid map dengan memanggil fungsi genera..." alt="" coords="171,5,299,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a65f3418864d245e55f7e98ef33004d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f3418864d245e55f7e98ef33004d0b">&#9670;&nbsp;</a></span>getCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcell.html">cell</a> gridm::getCell </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter : untuk mendapatkan cell pada koordinat x,y </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Mengembalikan</dt><dd>cell </dd></dl>
+
+</div>
+</div>
+<a id="aae3158553328beefc71848afb8567727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae3158553328beefc71848afb8567727">&#9670;&nbsp;</a></span>getColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gridm::getColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter : untuk mendapatkan color(warna) cell pada koordinat x,y </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Mengembalikan</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="af395d9e645fa7659ed48e60d48dca99d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af395d9e645fa7659ed48e60d48dca99d">&#9670;&nbsp;</a></span>getDisplay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string gridm::getDisplay </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter : untuk mendapatkan display(string yang ditampilkan) cell pada koordinat x,y </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Mengembalikan</dt><dd>string </dd></dl>
+
+</div>
+</div>
+<a id="acf15927bb8ecc81cdfe4d4b099e82759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf15927bb8ecc81cdfe4d4b099e82759">&#9670;&nbsp;</a></span>getValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gridm::getValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter : untuk mendapatkan nilai cell pada koordinat x,y </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Mengembalikan</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="a04e3aa92f1d8c92fb5e96d104c441643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04e3aa92f1d8c92fb5e96d104c441643">&#9670;&nbsp;</a></span>getVisited()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gridm::getVisited </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter : untuk mengetahui apakah cell pada koordinat x,y sudah dikunjungi </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Mengembalikan</dt><dd>true jika sudah dikunjungi </dd>
+<dd>
+false jika belum dikunjungi </dd></dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a04e3aa92f1d8c92fb5e96d104c441643_icgraph.png" border="0" usemap="#classgridm_a04e3aa92f1d8c92fb5e96d104c441643_icgraph" alt=""/></div>
+<map name="classgridm_a04e3aa92f1d8c92fb5e96d104c441643_icgraph" id="classgridm_a04e3aa92f1d8c92fb5e96d104c441643_icgraph">
+<area shape="rect" id="node2" href="classlabyrinth.html#ac10b855c37741e9fe3ba476b4eac043f" title="Construct a new labirinth::labirinth object membuat maze pada grid map dengan memanggil fungsi genera..." alt="" coords="173,5,301,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2d318d926b5d3df9394e2b4fe2775d64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d318d926b5d3df9394e2b4fe2775d64">&#9670;&nbsp;</a></span>printing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::printing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>untuk mencetak(menampilkan) seluruh cell pada grid map </p>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a2d318d926b5d3df9394e2b4fe2775d64_icgraph.png" border="0" usemap="#classgridm_a2d318d926b5d3df9394e2b4fe2775d64_icgraph" alt=""/></div>
+<map name="classgridm_a2d318d926b5d3df9394e2b4fe2775d64_icgraph" id="classgridm_a2d318d926b5d3df9394e2b4fe2775d64_icgraph">
+<area shape="rect" id="node2" href="classdungeon.html#a36c042deadff8cdc8ed65c0bdae71f9e" title="fungsi untuk menapilkan hasil dungeon yang dibuat " alt="" coords="157,5,267,32"/>
+<area shape="rect" id="node3" href="example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="315,5,365,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8522ca282c3b773866b8ca6bbb791f8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8522ca282c3b773866b8ca6bbb791f8c">&#9670;&nbsp;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::resize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>prosedur untuk mengubah panjang dan lebar grid map </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>[int] lebar grid map yang baru </td></tr>
+    <tr><td class="paramname">height</td><td>[int] panjang grid map yang baru </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a8522ca282c3b773866b8ca6bbb791f8c_icgraph.png" border="0" usemap="#classgridm_a8522ca282c3b773866b8ca6bbb791f8c_icgraph" alt=""/></div>
+<map name="classgridm_a8522ca282c3b773866b8ca6bbb791f8c_icgraph" id="classgridm_a8522ca282c3b773866b8ca6bbb791f8c_icgraph">
+<area shape="rect" id="node2" href="classdungeon.html#a7717dd21ff5aebdf53b4929716d92c38" title="Construct a new dungeon object. " alt="" coords="324,5,452,32"/>
+<area shape="rect" id="node3" href="classdungeon.html#ad235d0f9cb289539323063e5352a6a5c" title="mfungsi untuk men generate ulang dungeon dengan nilai attribut yang telah dirubah ..." alt="" coords="151,56,276,83"/>
+<area shape="rect" id="node4" href="example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="363,56,413,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1b5d63a0131485714d3895d83cd97968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b5d63a0131485714d3895d83cd97968">&#9670;&nbsp;</a></span>save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::save </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>untuk menyimpan seluruh cell pada grid map </p>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a1b5d63a0131485714d3895d83cd97968_icgraph.png" border="0" usemap="#classgridm_a1b5d63a0131485714d3895d83cd97968_icgraph" alt=""/></div>
+<map name="classgridm_a1b5d63a0131485714d3895d83cd97968_icgraph" id="classgridm_a1b5d63a0131485714d3895d83cd97968_icgraph">
+<area shape="rect" id="node2" href="classdungeon.html#a48be68e4563e73666d091139f9733c82" title="fungsi untuk menyimpandungeon ke dalam file .txt " alt="" coords="141,5,247,32"/>
+<area shape="rect" id="node3" href="example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="295,5,345,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aeca5f9f2af52b99b9de6b453e64b02f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeca5f9f2af52b99b9de6b453e64b02f6">&#9670;&nbsp;</a></span>set_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::set_region </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setter : untuk menentukan value(nilai) sekumpulan cell pada koordinat x,y awal hingga x,y akhir </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x1</td><td>[int] koordinat x awal </td></tr>
+    <tr><td class="paramname">y1</td><td>[int] koordinat y awal </td></tr>
+    <tr><td class="paramname">x2</td><td>[int] koordinat x akhir </td></tr>
+    <tr><td class="paramname">y2</td><td>[int] koordinat y akhir </td></tr>
+    <tr><td class="paramname">value</td><td>[int] nilai yang dierikan pada cell </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-terpanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_aeca5f9f2af52b99b9de6b453e64b02f6_cgraph.png" border="0" usemap="#classgridm_aeca5f9f2af52b99b9de6b453e64b02f6_cgraph" alt=""/></div>
+<map name="classgridm_aeca5f9f2af52b99b9de6b453e64b02f6_cgraph" id="classgridm_aeca5f9f2af52b99b9de6b453e64b02f6_cgraph">
+<area shape="rect" id="node2" href="classgridm.html#a159582558d4c2f49f1817467b1babc16" title="setter : untuk menentukan value(nilai) cell pada koordinat x,y " alt="" coords="176,5,289,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a09855d90537170c0d007eaefaddd6d49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09855d90537170c0d007eaefaddd6d49">&#9670;&nbsp;</a></span>set_region_color()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::set_region_color </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setter : untuk menentukan color(warna) sekumpulan cell pada koordinat x,y awal hingga x,y akhir </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x1</td><td>[int] koordinat x awal </td></tr>
+    <tr><td class="paramname">y1</td><td>[int] koordinat y awal </td></tr>
+    <tr><td class="paramname">x2</td><td>[int] koordinat x akhir </td></tr>
+    <tr><td class="paramname">y2</td><td>[int] koordinat y akhir </td></tr>
+    <tr><td class="paramname">color</td><td>[int] kode warna yang dierikan pada cell </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-terpanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a09855d90537170c0d007eaefaddd6d49_cgraph.png" border="0" usemap="#classgridm_a09855d90537170c0d007eaefaddd6d49_cgraph" alt=""/></div>
+<map name="classgridm_a09855d90537170c0d007eaefaddd6d49_cgraph" id="classgridm_a09855d90537170c0d007eaefaddd6d49_cgraph">
+<area shape="rect" id="node2" href="classgridm.html#a97b9a58958af9badfdff8d56be6b32c5" title="setter : untuk menentukan color(warna) cell pada koordinat x,y " alt="" coords="211,5,321,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab5f94fd47ed4f8e6d3e45e3cf1a70037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f94fd47ed4f8e6d3e45e3cf1a70037">&#9670;&nbsp;</a></span>set_region_display()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::set_region_display </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y awal hingga x,y akhir </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x1</td><td>[int] koordinat x awal </td></tr>
+    <tr><td class="paramname">y1</td><td>[int] koordinat y awal </td></tr>
+    <tr><td class="paramname">x2</td><td>[int] koordinat x akhir </td></tr>
+    <tr><td class="paramname">y2</td><td>[int] koordinat y akhir </td></tr>
+    <tr><td class="paramname">value</td><td>[string] string yang diberikan untuk cell pada koordinat x,y </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-terpanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_ab5f94fd47ed4f8e6d3e45e3cf1a70037_cgraph.png" border="0" usemap="#classgridm_ab5f94fd47ed4f8e6d3e45e3cf1a70037_cgraph" alt=""/></div>
+<map name="classgridm_ab5f94fd47ed4f8e6d3e45e3cf1a70037_cgraph" id="classgridm_ab5f94fd47ed4f8e6d3e45e3cf1a70037_cgraph">
+<area shape="rect" id="node2" href="classgridm.html#a3717cae15c3e1ad8cc5a4823719a2607" title="setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y ..." alt="" coords="224,5,347,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1615ea8743f2aad5bbbbda1a2d5bff88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1615ea8743f2aad5bbbbda1a2d5bff88">&#9670;&nbsp;</a></span>set_region_visited()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::set_region_visited </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setter : untuk menentukan sekumpulan cell sudah dikunjungi atau belum pada koordinat x,y awal hingga x,y akhir </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x1</td><td>[int] koordinat x awal </td></tr>
+    <tr><td class="paramname">y1</td><td>[int] koordinat y awal </td></tr>
+    <tr><td class="paramname">x2</td><td>[int] koordinat x akhir </td></tr>
+    <tr><td class="paramname">y2</td><td>[int] koordinat y akhir </td></tr>
+    <tr><td class="paramname">visited</td><td>[bool] boolean yang diberikan pada variable visited di cell x,y </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-terpanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a1615ea8743f2aad5bbbbda1a2d5bff88_cgraph.png" border="0" usemap="#classgridm_a1615ea8743f2aad5bbbbda1a2d5bff88_cgraph" alt=""/></div>
+<map name="classgridm_a1615ea8743f2aad5bbbbda1a2d5bff88_cgraph" id="classgridm_a1615ea8743f2aad5bbbbda1a2d5bff88_cgraph">
+<area shape="rect" id="node2" href="classgridm.html#aeae60b366ff6ef24bbb58919979e729a" title="setter : untuk menentukan apakah suatu cell sudah dikunjungi pada koordinat x,y " alt="" coords="219,5,339,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9ec0addfbbb4f4aa36af4dbf34ac9d8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ec0addfbbb4f4aa36af4dbf34ac9d8d">&#9670;&nbsp;</a></span>setCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::setCell </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcell.html">cell</a>&#160;</td>
+          <td class="paramname"><em>Cell</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setter : untuk menentukan objek cell pada koordinat x,y </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+    <tr><td class="paramname">Cell</td><td>[cell] cell yang diberikan untuk koordinat x,y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a97b9a58958af9badfdff8d56be6b32c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97b9a58958af9badfdff8d56be6b32c5">&#9670;&nbsp;</a></span>setColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::setColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setter : untuk menentukan color(warna) cell pada koordinat x,y </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+    <tr><td class="paramname">color</td><td>[int] kode warna yang dierikan pada cell </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a97b9a58958af9badfdff8d56be6b32c5_icgraph.png" border="0" usemap="#classgridm_a97b9a58958af9badfdff8d56be6b32c5_icgraph" alt=""/></div>
+<map name="classgridm_a97b9a58958af9badfdff8d56be6b32c5_icgraph" id="classgridm_a97b9a58958af9badfdff8d56be6b32c5_icgraph">
+<area shape="rect" id="node2" href="classgridm.html#a09855d90537170c0d007eaefaddd6d49" title="setter : untuk menentukan color(warna) sekumpulan cell pada koordinat x,y awal hingga x..." alt="" coords="164,5,321,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3717cae15c3e1ad8cc5a4823719a2607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3717cae15c3e1ad8cc5a4823719a2607">&#9670;&nbsp;</a></span>setDisplay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::setDisplay </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+    <tr><td class="paramname">value</td><td>[string] string yang diberikan untuk cell pada koordinat x,y </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a3717cae15c3e1ad8cc5a4823719a2607_icgraph.png" border="0" usemap="#classgridm_a3717cae15c3e1ad8cc5a4823719a2607_icgraph" alt=""/></div>
+<map name="classgridm_a3717cae15c3e1ad8cc5a4823719a2607_icgraph" id="classgridm_a3717cae15c3e1ad8cc5a4823719a2607_icgraph">
+<area shape="rect" id="node2" href="classgridm.html#ab5f94fd47ed4f8e6d3e45e3cf1a70037" title="setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y awal hingga x..." alt="" coords="176,5,347,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a159582558d4c2f49f1817467b1babc16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a159582558d4c2f49f1817467b1babc16">&#9670;&nbsp;</a></span>setValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setter : untuk menentukan value(nilai) cell pada koordinat x,y </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+    <tr><td class="paramname">value</td><td>[int] nilai yang dierikan pada cell </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_a159582558d4c2f49f1817467b1babc16_icgraph.png" border="0" usemap="#classgridm_a159582558d4c2f49f1817467b1babc16_icgraph" alt=""/></div>
+<map name="classgridm_a159582558d4c2f49f1817467b1babc16_icgraph" id="classgridm_a159582558d4c2f49f1817467b1babc16_icgraph">
+<area shape="rect" id="node2" href="classgridm.html#aeca5f9f2af52b99b9de6b453e64b02f6" title="setter : untuk menentukan value(nilai) sekumpulan cell pada koordinat x,y awal hingga x..." alt="" coords="167,5,289,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aeae60b366ff6ef24bbb58919979e729a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae60b366ff6ef24bbb58919979e729a">&#9670;&nbsp;</a></span>setVisited()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gridm::setVisited </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>visited</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setter : untuk menentukan apakah suatu cell sudah dikunjungi pada koordinat x,y </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[int] koordinat x </td></tr>
+    <tr><td class="paramname">y</td><td>[int] koordinat y </td></tr>
+    <tr><td class="paramname">visited</td><td>[bool] boolean yang diberikan pada variable visited di cell x,y </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Berikut ini bagan fungsi-pemanggil untuk fungsi ini:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgridm_aeae60b366ff6ef24bbb58919979e729a_icgraph.png" border="0" usemap="#classgridm_aeae60b366ff6ef24bbb58919979e729a_icgraph" alt=""/></div>
+<map name="classgridm_aeae60b366ff6ef24bbb58919979e729a_icgraph" id="classgridm_aeae60b366ff6ef24bbb58919979e729a_icgraph">
+<area shape="rect" id="node2" href="classgridm.html#a1615ea8743f2aad5bbbbda1a2d5bff88" title="setter : untuk menentukan sekumpulan cell sudah dikunjungi atau belum pada koordinat x..." alt="" coords="173,5,339,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentasi Anggota: Data</h2>
+<a id="a6840544e6f8be369abce1a5d6f6054c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6840544e6f8be369abce1a5d6f6054c5">&#9670;&nbsp;</a></span>map</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt;vector&lt;<a class="el" href="classcell.html">cell</a>&gt; &gt; gridm::map</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>list 2 dimensi yang berisikan cell </p>
+
+</div>
+</div>
+<hr/>Dokumentasi untuk kelas ini dibangkitkan dari file-file berikut:<ul>
+<li>C:/Users/Anshar/Documents/Visual Studio 2017/Projects/tamanabirin/<a class="el" href="gridm_8h_source.html">gridm.h</a></li>
+<li>C:/Users/Anshar/Documents/Visual Studio 2017/Projects/tamanabirin/<a class="el" href="gridm_8cpp.html">gridm.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classgridm.html">gridm</a></li>
+    <li class="footer">Dibangkitkan oleh
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

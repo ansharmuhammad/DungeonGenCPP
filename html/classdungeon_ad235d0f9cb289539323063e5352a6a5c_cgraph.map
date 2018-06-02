@@ -1,0 +1,4 @@
+<map id="dungeon::execute" name="dungeon::execute">
+<area shape="rect" id="node2" href="$classgridm.html#a8522ca282c3b773866b8ca6bbb791f8c" title="prosedur untuk mengubah panjang dan lebar grid map " alt="" coords="183,5,281,32"/>
+<area shape="rect" id="node3" href="$classgridm.html#a11c0483c19b170abefd32ed426b5635f" title="menginisiasi nilai setiap cell pada grid map " alt="" coords="179,56,285,83"/>
+</map>

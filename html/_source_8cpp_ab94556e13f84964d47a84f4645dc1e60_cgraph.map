@@ -1,0 +1,4 @@
+<map id="executeMaze" name="executeMaze">
+<area shape="rect" id="node2" href="$classlabirinth.html#a854f6f5389ad6a3136a1865e3c738b97" title="merpukan getter untuk mendapatkan grid map yang terdapat maze di dalamnya " alt="" coords="153,5,279,32"/>
+<area shape="rect" id="node3" href="$classgridm.html#a2d318d926b5d3df9394e2b4fe2775d64" title="untuk mencetak(menampilkan) seluruh cell pada grid map " alt="" coords="164,56,268,83"/>
+</map>
