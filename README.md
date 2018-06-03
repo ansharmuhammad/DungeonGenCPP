@@ -36,6 +36,8 @@ berikut daftar fungsi dan kegunaan `dungeon.h` :
 | `show` | menampilkan _dungeon_ pada console|
 | `save(string nama_file)` | menyimpan _dungeon_ dalam file .txt |
 
+lihat [`dokumentasi kode.pdf`](https://github.com/ansharmuhammad/DungeonGenCPP/blob/master/dokumentasi%20code.pdf) untuk rincian
+
 ### Daftar Attribute
 berikut daftar attribut dan keterangan `dungeon.h` :
 
@@ -134,6 +136,64 @@ int main(){
 ```
 
 untuk lebih rinci silahkan lihat file [`example.cpp`](https://github.com/ansharmuhammad/DungeonGenCPP/blob/master/cpp/example.cpp)
+
+### Screenshot
+![ss1](https://user-images.githubusercontent.com/39853838/40886961-b447deba-6773-11e8-84c4-74698c9153d8.PNG)
+![ss2](https://user-images.githubusercontent.com/39853838/40886964-bb091ae8-6773-11e8-8400-92d63547c493.PNG)
+![ss3](https://user-images.githubusercontent.com/39853838/40886965-bfe7a1b0-6773-11e8-8edd-1ba7bc4643ee.PNG)
+
+### Output
+berikut merupakan contoh output [`sample output.txt`](https://github.com/ansharmuhammad/DungeonGenCPP/blob/master/sample%20output.txt) dari program
+
+```
+* * * * * * * * * * * * * * * * * * * * * * * *   * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * *   * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * *   * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * *   * * * * * * * * * * * * * * * * * * * * * 
+* * * *   *   *       *                               *                           * * * * * 
+* * * *   *   *   *   *   *   * * * * * * * * * * *   * * * * * * * * * * * * *   * * * * * 
+* * * *   *       *       *   * *               * *               * * * * *       * * * * * 
+* * * *   *   * * *   * * *   * *               * * * * * * * *   *       *   * * * * * * * 
+* * * *   *   * * *   *       * *               * *               *               * * * * * 
+* * * *   *           *   * * * *               * *   * * * * * * *       *   *   * * * * * 
+* * * *   *                   * *               * *   *       *   *       *   *   * * * * * 
+* * * *   *           * * *   * *               * *   *   *   *   *       *   *   * * * * * 
+* * * *   * * * * * * *       * *               * *       *   *   *       *   *   * * * * * 
+* * * *   * * * * * * *   * * * *               * * * * * *   *           * * *   * * * * * 
+* * * *   *               *   * *               * *       *   *   * * *   *       * * * * * 
+* * * *   * * * * * * *   *   * * *   * * *   * * *   *   *   *   * * *   *   *   * * * * * 
+* * * *                   *                           *   *               *   *   * * * * * 
+* * * * * * * * * * * * * *   * * * * * * * * * * * * * * * * * * * * *   *   *   * * * * * 
+* * *                   * *   * * * * * * * * * * * * * * * * * * *       *   *   * * * * * 
+* * *                   * *   *                                   *   * * *   * * * * * * * 
+* * *                   * *   *                                   *       *       * * * * * 
+* * *                   * *   *                                   * * *   *   *   * * * * * 
+* * *                   * *   *                                   *       *   *   * * * * * 
+* * *                   * *                                       *   * * * * *   * * * * * 
+* * *                   * *   * * * * * * *   * * * * * * * * * * *       *       * * * * * 
+* * * * * * * * *   *   * *   * * * * * * *   * * * * * * * * * * * * *   *   *   * * * * * 
+* * * * * * * * *   *   * *   *                                               *   * * * * * 
+* * *                   * *   *       *   * * * * *   * * * * * * * * * * * * *   * * * * * 
+* * *                   * *   *               * * *   * * * * * * * * *   *       * * * * * 
+* * *                   * *   *       * * *   * *                   * *   *   * * * * * * * 
+* * *                   * *   *       *       * *                   * *   *   *   * * * * * 
+* * *                   * *   *       *   * * * *                   * *   *   *   * * * * * 
+* * *                   * *   *       *   *   * * * * * * * * * * * * *   *   *   * * * * * 
+* * *                   * *   *       *   *   * * * * * * * * * * * * *   *   *   * * * * * 
+* * *                   * *   *       *   *       * * * * * * * * *       *   *   * * * * * 
+* * *                         * * * * *   * * *   * *           * *   *   *   *   * * * * * 
+* * *                   * *       *   *       *                 * *   *   *       * * * * * 
+* * *                   * *   *   *   * * *   *   * *           * *   * * * * *   * * * * * 
+* * * * * * * * * * * * * *   *       *       *   * *           * *           *   * * * * * 
+* * * * * * * * * * * * * *   * * * * *   * * *   * *           * *   *   * * *   * * * * * 
+* * * *                                           * *                 *           * * * * * 
+* * * * * * * * * * * * *   * * * * * * * * * * * * *           * * * * * * * * * * * * * * 
+* * * * * * * * * * * * *   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * *   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * *   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * *   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+```
 
 ### Dibuat Menggunakan
 - [visual studio community](https://www.visualstudio.com/vs/community/) - IDE yang digunakan
