@@ -1,5 +1,0 @@
-<map id="labyrinth::labyrinth" name="labyrinth::labyrinth">
-<area shape="rect" id="node2" href="$classgridm.html#af38b66af364f0cdf3519e53ce0ce4498" title="getter : untuk mendapatkan nilai width(lebar) grid map " alt="" coords="184,5,301,32"/>
-<area shape="rect" id="node3" href="$classgridm.html#a1387cce0b83daad5129a743b8508e00a" title="getter : untuk mendapatkan nilai height(panjang) grid map " alt="" coords="181,56,304,83"/>
-<area shape="rect" id="node4" href="$classgridm.html#a04e3aa92f1d8c92fb5e96d104c441643" title="getter : untuk mengetahui apakah cell pada koordinat x,y sudah dikunjungi " alt="" coords="183,107,303,133"/>
-</map>

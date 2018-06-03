@@ -1,7 +1,0 @@
-<map id="C:/Users/Anshar/Documents/Visual Studio 2017/Projects/tamanabirin/dungeon.h" name="C:/Users/Anshar/Documents/Visual Studio 2017/Projects/tamanabirin/dungeon.h">
-<area shape="rect" id="node5" href="$rectangle_8h.html" title="merupakan objek berbentuk kotak " alt="" coords="5,184,92,211"/>
-<area shape="rect" id="node7" href="$cell_8h.html" title="merupakan objek berupa cell(layaknya ruang di lemari) yang menyimpan beberapa attribut ..." alt="" coords="741,259,794,285"/>
-<area shape="rect" id="node9" href="$gridm_8h.html" title="merupakan objek grid map. yaitu objek yang menampung sekumpulan objek cell pada koordinat x..." alt="" coords="504,184,569,211"/>
-<area shape="rect" id="node13" href="$_b_s_p_tree_8h.html" title="BSPTree.h" alt="" coords="199,109,285,136"/>
-<area shape="rect" id="node14" href="$labyrinth_8h.html" title="labyrinth.h" alt="" coords="530,109,613,136"/>
-</map>

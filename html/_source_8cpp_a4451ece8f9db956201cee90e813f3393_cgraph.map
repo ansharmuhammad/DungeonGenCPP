@@ -1,7 +1,0 @@
-<map id="candidateConnector" name="candidateConnector">
-<area shape="rect" id="node2" href="$classgridm.html#a1387cce0b83daad5129a743b8508e00a" title="getter : untuk mendapatkan nilai height(panjang) grid map " alt="" coords="191,5,313,32"/>
-<area shape="rect" id="node3" href="$classgridm.html#af38b66af364f0cdf3519e53ce0ce4498" title="getter : untuk mendapatkan nilai width(lebar) grid map " alt="" coords="193,56,311,83"/>
-<area shape="rect" id="node4" href="$classgridm.html#a04e3aa92f1d8c92fb5e96d104c441643" title="getter : untuk mengetahui apakah cell pada koordinat x,y sudah dikunjungi " alt="" coords="192,107,312,133"/>
-<area shape="rect" id="node5" href="$classgridm.html#acf15927bb8ecc81cdfe4d4b099e82759" title="getter : untuk mendapatkan nilai cell pada koordinat x,y " alt="" coords="195,157,309,184"/>
-<area shape="rect" id="node6" href="$classgridm.html#a65f3418864d245e55f7e98ef33004d0b" title="getter : untuk mendapatkan cell pada koordinat x,y " alt="" coords="201,208,303,235"/>
-</map>

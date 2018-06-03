@@ -1,8 +1,0 @@
-<map id="executeInOut" name="executeInOut">
-<area shape="rect" id="node2" href="$classgridm.html#af38b66af364f0cdf3519e53ce0ce4498" title="getter : untuk mendapatkan nilai width(lebar) grid map " alt="" coords="155,5,272,32"/>
-<area shape="rect" id="node3" href="$classgridm.html#af395d9e645fa7659ed48e60d48dca99d" title="getter : untuk mendapatkan display(string yang ditampilkan) cell pada koordinat x,y " alt="" coords="152,56,275,83"/>
-<area shape="rect" id="node4" href="$classgridm.html#a65f3418864d245e55f7e98ef33004d0b" title="getter : untuk mendapatkan cell pada koordinat x,y " alt="" coords="162,107,265,133"/>
-<area shape="rect" id="node5" href="$classgridm.html#a3717cae15c3e1ad8cc5a4823719a2607" title="setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y ..." alt="" coords="152,157,275,184"/>
-<area shape="rect" id="node6" href="$classgridm.html#a1387cce0b83daad5129a743b8508e00a" title="getter : untuk mendapatkan nilai height(panjang) grid map " alt="" coords="152,208,275,235"/>
-<area shape="rect" id="node7" href="$classgridm.html#a2d318d926b5d3df9394e2b4fe2775d64" title="untuk mencetak(menampilkan) seluruh cell pada grid map " alt="" coords="161,259,265,285"/>
-</map>

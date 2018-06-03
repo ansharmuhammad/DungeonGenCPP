@@ -1,4 +1,0 @@
-<map id="labyrinth::cekNeighbour" name="labyrinth::cekNeighbour">
-<area shape="rect" id="node2" href="$classlabyrinth.html#a6391dd408d67be205f7ce7c6bafe3268" title="prosedur untuk membuat map di mulai pada titik (xstart,ystart) " alt="" coords="212,5,341,32"/>
-<area shape="rect" id="node3" href="$classlabyrinth.html#ac10b855c37741e9fe3ba476b4eac043f" title="Construct a new labirinth::labirinth object membuat maze pada grid map dengan memanggil fungsi genera..." alt="" coords="389,5,517,32"/>
-</map>

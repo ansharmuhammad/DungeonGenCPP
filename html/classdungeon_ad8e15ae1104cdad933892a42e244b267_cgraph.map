@@ -1,8 +1,0 @@
-<map id="dungeon::executeManual" name="dungeon::executeManual">
-<area shape="rect" id="node2" href="$classgridm.html#aeca5f9f2af52b99b9de6b453e64b02f6" title="setter : untuk menentukan value(nilai) sekumpulan cell pada koordinat x,y awal hingga x..." alt="" coords="244,5,367,32"/>
-<area shape="rect" id="node4" href="$classgridm.html#ab5f94fd47ed4f8e6d3e45e3cf1a70037" title="setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y awal hingga x..." alt="" coords="220,56,391,83"/>
-<area shape="rect" id="node6" href="$classgridm.html#a1615ea8743f2aad5bbbbda1a2d5bff88" title="setter : untuk menentukan sekumpulan cell sudah dikunjungi atau belum pada koordinat x..." alt="" coords="223,107,388,133"/>
-<area shape="rect" id="node3" href="$classgridm.html#a159582558d4c2f49f1817467b1babc16" title="setter : untuk menentukan value(nilai) cell pada koordinat x,y " alt="" coords="443,5,557,32"/>
-<area shape="rect" id="node5" href="$classgridm.html#a3717cae15c3e1ad8cc5a4823719a2607" title="setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y ..." alt="" coords="439,56,561,83"/>
-<area shape="rect" id="node7" href="$classgridm.html#aeae60b366ff6ef24bbb58919979e729a" title="setter : untuk menentukan apakah suatu cell sudah dikunjungi pada koordinat x,y " alt="" coords="440,107,560,133"/>
-</map>

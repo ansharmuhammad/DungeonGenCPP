@@ -1,7 +1,0 @@
-<map id="labyrinth::carving" name="labyrinth::carving">
-<area shape="rect" id="node2" href="$classgridm.html#aeae60b366ff6ef24bbb58919979e729a" title="setter : untuk menentukan apakah suatu cell sudah dikunjungi pada koordinat x,y " alt="" coords="173,5,293,32"/>
-<area shape="rect" id="node3" href="$classgridm.html#a159582558d4c2f49f1817467b1babc16" title="setter : untuk menentukan value(nilai) cell pada koordinat x,y " alt="" coords="177,56,290,83"/>
-<area shape="rect" id="node4" href="$classgridm.html#a3717cae15c3e1ad8cc5a4823719a2607" title="setter : untuk menentukan display(string yang ditampilkan) cell pada koordinat x,y ..." alt="" coords="172,107,295,133"/>
-<area shape="rect" id="node5" href="$classgridm.html#a65f3418864d245e55f7e98ef33004d0b" title="getter : untuk mendapatkan cell pada koordinat x,y " alt="" coords="182,157,285,184"/>
-<area shape="rect" id="node6" href="$classgridm.html#a2d318d926b5d3df9394e2b4fe2775d64" title="untuk mencetak(menampilkan) seluruh cell pada grid map " alt="" coords="181,208,285,235"/>
-</map>
